@@ -109,7 +109,8 @@ const Challenge = () => {
             different gas permeability: He, H2, O2, N2, CO2, CH4 (in Barrer),
             and five computational properties from MD simulations: fractional
             free volume (FFV), glass transition temperature (Tg, °C), thermal
-            conductivity (TC, W/m·K), and radius of gyration (Rg) and Density.
+            conductivity (TC, W/m·K), and radius of gyration (Rg) and polymer
+            Density.
           </p>
           <p
             className="mt-4 text-lg text-neutral-800"
@@ -133,7 +134,7 @@ const Challenge = () => {
           >
             <b>Test during development</b>: There are 944 polymers held out with
             1,265 annotations for initial evaluation. Data is provided by a JSON
-            from:{"  "}
+            from {"  "}
             <a
               href="https://github.com/open-polymer-challenge/data-dev/blob/main/prediction/test_dev.json"
               target="_blank"
@@ -210,7 +211,7 @@ const Challenge = () => {
             style={{ fontFamily: "Khula, sans-serif" }}
           >
             <b>Test during development</b>: There are 1,330 polymers held out.
-            The data is provided by a JSON from:{"  "}
+            The data is provided by a JSON from {"  "}
             <a
               href="https://github.com/open-polymer-challenge/data-dev/blob/main/generation/test_dev.json"
               target="_blank"
@@ -243,20 +244,6 @@ const Challenge = () => {
           <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
             Rules
           </h2>
-          <p
-            className="mt-4 text-lg text-neutral-800"
-            style={{ fontFamily: "Khula, sans-serif" }}
-          >
-            Rules cover eligibility, awards, sponsors, prizes, and platform
-            guidelines. Participation is open to all registered users without
-            bias. Correct submission following guidelines is necessary. Award
-            rules prevent cheating, while prize rules comply with sponsor and
-            platform guidelines. Rules are designed for maximum flexibility.
-            Minimal eligibility fosters a competitive and educative environment
-            where participants can learn various ML techniques applicable to
-            real-world polymer tasks.
-          </p>
-
           <div
             className="mt-4 text-lg text-neutral-800"
             style={{ fontFamily: "Khula, sans-serif" }}
@@ -415,7 +402,15 @@ const Challenge = () => {
               style={{ fontFamily: "Khula, sans-serif" }}
             >
               <b>Gang Liu </b> is a third-year PhD student of Computer Science
-              and Engineering at the University of Notre Dame.
+              and Engineering at the University of Notre Dame, advised by Prof.
+              Meng Jiang. He received his B.S. degree at Southwest University in
+              2021. His interests include graph machine learning for scientific
+              discovery. His research aims to develop data-centric methods to
+              improve prediction generalization and interpretability and to
+              design diffusion models for controllable molecules and polymer
+              generation. He has publications in top venues such as KDD,
+              NeurIPS, ICML, and TKDD, and has served as a reviewer for
+              NeurIPS/ICML since 2022.
             </p>
           </div>
           <div className="flex mb-4 mt-4">

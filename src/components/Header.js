@@ -5,7 +5,9 @@ function Header() {
   return (
     <header class="bg-white shadow top-0 w-full z-50 fixed">
       <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-        <h1 class="text-3xl font-bold leading-tight">Open Polymer Challenge</h1>
+        <h1 class="text-3xl font-bold leading-tight">
+          <a href="/#">Open Polymer Challenge</a>
+        </h1>
         <nav>
           <ul class="flex space-x-6">
             <li>
@@ -14,12 +16,18 @@ function Header() {
               </a>
             </li>
             <li>
-              <a className="text-gray-600 hover:text-gray-800" href="/#track1_prediction">
+              <a
+                className="text-gray-600 hover:text-gray-800"
+                href="/#track1_prediction"
+              >
                 Track 1: Prediction
               </a>
             </li>
             <li>
-              <a className="text-gray-600 hover:text-gray-800" href="/#track2_generation">
+              <a
+                className="text-gray-600 hover:text-gray-800"
+                href="/#track2_generation"
+              >
                 Track 2: Generation
               </a>
             </li>
@@ -44,7 +52,10 @@ function Header() {
               </a>
             </li> */}
             <li>
-              <a class="text-gray-600 hover:text-gray-800" href="https://github.com/open-polymer-challenge/challenge-code">
+              <a
+                class="text-gray-600 hover:text-gray-800"
+                href="https://github.com/open-polymer-challenge/challenge-code"
+              >
                 Github
               </a>
             </li>
