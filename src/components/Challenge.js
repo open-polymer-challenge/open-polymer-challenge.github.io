@@ -109,8 +109,8 @@ const Challenge = () => {
             different gas permeability: He, H2, O2, N2, CO2, CH4 (in Barrer),
             and five computational properties from MD simulations: fractional
             free volume (FFV), glass transition temperature (Tg, °C), thermal
-            conductivity (TC, W/m·K), and radius of gyration (Rg) and polymer
-            Density.
+            conductivity (TC, W/m·K), radius of gyration (Rg) and polymer
+            density.
           </p>
           <p
             className="mt-4 text-lg text-neutral-800"
