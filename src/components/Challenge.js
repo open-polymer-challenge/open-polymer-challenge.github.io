@@ -418,8 +418,17 @@ const Challenge = () => {
               className="text-lg w-3/4"
               style={{ fontFamily: "Khula, sans-serif" }}
             >
-              <b>Jiaxin Xu </b>is a fourth-year PhD student of Mechanical
-              Engineering at the University of Notre Dame.
+              <b>Jiaxin Xu </b> is a fourth-year PhD student of Mechanical
+              Engineering at the University of Notre Dame, advised by Prof.
+              Tengfei Luo. He received his B.S. degree at Huazhong University of
+              Science and Technology in 2020. His research interests lie in
+              polymer informatics combining computational simulation and machine
+              learning for various energy and mass transport applications. He
+              has publications in top journals like Energy Conversion and
+              Management, Materials Today Physics, ES Energy \& Environment, as
+              well as top machine learning conferences like KDD and NeurIPS. He
+              has served as a reviewer for Chemical Physics and Journal of
+              Chemical Information and Modeling since 2023.
             </p>
           </div>
           <div className="flex mb-4 mt-4">
@@ -428,7 +437,13 @@ const Challenge = () => {
               style={{ fontFamily: "Khula, sans-serif" }}
             >
               <b>Eric Inae </b> is a second-year PhD student of Computer Science
-              and Engineering at the University of Notre Dame.
+              and Engineering at the University of Notre Dame, advised by Prof.
+              Meng Jiang. He received his B.S. degreeat Andrews University in
+              2022. His research interests lie in graph machine learning with
+              applications in material science. He was awarded the Dean's
+              Fellowship of the University of Notre Dame in 2022. He has
+              publications in top venues such as KDD and NeuIPS and has served
+              as a reviewer for AAAI since 2023.
             </p>
           </div>
           <div className="flex mb-4 mt-4">
@@ -436,9 +451,32 @@ const Challenge = () => {
               className="text-lg w-3/4"
               style={{ fontFamily: "Khula, sans-serif" }}
             >
-              <b>Ying Li </b>
-              is an Associate Professor of Mechanical Engineering at the
-              University of Wisconsin-Madison.
+              <b>Ying Li </b> joined the University of Wisconsin-Madison in
+              August 2022 as an Associate Professor of Mechanical Engineering.
+              From 2015 to 2022, he was an Assistant Professor of Mechanical
+              Engineering at the University of Connecticut and was promoted to
+              Associate Professor. He received his Ph.D. in 2015 from
+              Northwestern University, focusing on the multiscale modeling of
+              soft matter and related biomedical applications. His current
+              research interests are: multiscale modeling, computational
+              materials design, mechanics and physics of polymers, and machine
+              learning-accelerated polymer design. Dr. Li's achievements in
+              research have been widely recognized by fellowships and awards,
+              including ACS Polymeric Material Science and Engineering (PMSE)
+              Young Investigator Award (2023), NSF CAREER Award (2021), Air
+              Force's Young Investigator Award (2020), 3M Non-Tenured Faculty
+              Award (2020), ASME Haythornthwaite Young Investigator Award
+              (2019), NSF CISE Research Initiation Initiative Award (2018) and
+              multiple best paper awards from major conferences. He has authored
+              and co-authored more than 130 peer-reviewed journal articles,
+              including Science Advances, Physical Review Letters, ACS Nano,
+              Journal of Mechanics and Physics of Solids, and Macromolecules,
+              etc. He has been invited as a reviewer for more than 100
+              international journals, such as Nature Communications and Science
+              Advances. Dr. Li's lab is currently supported by
+              multi-million-dollar grants and contracts from NSF, AFOSR, AFRL,
+              ONR, DOE/National Nuclear Security Administration, DOE/National
+              Alliance for Water Innovation, and industries.
             </p>
           </div>
           <div className="flex mb-4 mt-4">
@@ -446,8 +484,23 @@ const Challenge = () => {
               className="text-lg w-3/4"
               style={{ fontFamily: "Khula, sans-serif" }}
             >
-              <b>Tengfei Luo </b> is the Dorini Family Professor of Aerospace
-              and Mechanical Engineering at the University of Notre Dame.
+              <b>Tengfei Luo </b> is the Dorini Family Professor and Associate
+              Chair in the Department of Aerospace and Mechanical Engineering
+              (AME) with a concurrent appointment in the Department of Chemical
+              and Biomolecular Engineering (CBE) at the University of Notre Dame
+              (UND). Before joining UND, he was a postdoctoral associate at
+              Massachusetts Institute of Technology (2009-2011) after obtaining
+              his PhD from Michigan State University (2009). At UND, Dr. Luo's
+              group focuses on nanoscale thermal transport, electronics thermal
+              management, novel material design and manufacturing, space
+              technology, and water treatment. Since joining UND in 2012, he has
+              won many awards as an independent researcher, such as the Japan
+              Society for the Promotion of Science (JSPS) Invitational Fellow
+              (2019), DuPont Young Professor Award (2016), the DARPA Young
+              Faculty Award (2015), ASME Fellow, the ACS PRF New Doctoral
+              Investigator Award (2013), the Air Force Summer Faculty Fellowship
+              (2015), the Best Paper Award of the Society-Wide
+              Micro/Nanotechnology Forum of ASME (2015).
             </p>
           </div>
           <div className="flex mb-4 mt-4">
@@ -456,7 +509,13 @@ const Challenge = () => {
               style={{ fontFamily: "Khula, sans-serif" }}
             >
               <b>Meng Jiang </b> is an Associate Professor of Computer Science
-              and Engineering at the University of Notre Dame.
+              and Engineering at the University of Notre Dame. He received B.E.
+              and PhD from Tsinghua University. He was a visiting scholar at CMU
+              and a postdoc at UIUC. He is interested in data mining, machine
+              learning, and natural language processing. His research focuses on
+              graph and text data for applications such as material discovery,
+              question answering, user modeling, and mental health. He received
+              the NSF CAREER Award and multiple best paper awards.
             </p>
           </div>
         </div>
