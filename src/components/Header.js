@@ -20,23 +20,23 @@ function Header() {
                 className="text-gray-600 hover:text-gray-800"
                 href="/#track1_prediction"
               >
-                Track 1: Prediction
+                Competition Task: Prediction
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 className="text-gray-600 hover:text-gray-800"
                 href="/#track2_generation"
               >
                 Track 2: Generation
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a className="text-gray-600 hover:text-gray-800" href="/#rules">
                 Rule
               </a>
             </li>
-            <li>
+            <li> */}
               <a className="text-gray-600 hover:text-gray-800" href="/#news">
                 Updates
               </a>
