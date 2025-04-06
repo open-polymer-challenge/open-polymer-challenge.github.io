@@ -86,7 +86,7 @@ const Challenge = () => {
       >
         <div class="max-w-5xl mx-auto">
           <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            Track 1: Polymer Property Prediction
+            CompetitionTask: Polymer Property Prediction
           </h2>
           <p
             class="mt-4 text-lg text-neutral-800"
@@ -158,7 +158,7 @@ const Challenge = () => {
         </div>
       </section>
 
-      <section
+      {/* <section
         class="py-12 max-w-7xl mx-auto px-4 sm:px-6 lg:py-16 lg:px-8"
         id="track2_generation"
       >
@@ -234,9 +234,9 @@ const Challenge = () => {
             evaluation.
           </p>
         </div>
-      </section>
+      </section> */}
 
-      <section
+      {/* <section
         class="py-12 max-w-7xl mx-auto px-4 sm:px-6 lg:py-16 lg:px-8"
         id="rules"
       >
@@ -345,7 +345,7 @@ const Challenge = () => {
             </ul>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section
         class="py-12 max-w-7xl mx-auto px-4 sm:px-6 lg:py-16 lg:px-8"
@@ -361,7 +361,7 @@ const Challenge = () => {
               style={{ fontFamily: "Khula, sans-serif" }}
             >
               <span className="inline-block w-36 font-bold">
-                March 27, 2024
+                April 5, 2025
               </span>
               <span>
                 - Get ready of preparation for {"  "}
