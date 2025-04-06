@@ -86,7 +86,7 @@ const Challenge = () => {
       >
         <div class="max-w-5xl mx-auto">
           <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            CompetitionTask: Polymer Property Prediction
+            Competition Task: Polymer Property Prediction
           </h2>
           <p
             class="mt-4 text-lg text-neutral-800"

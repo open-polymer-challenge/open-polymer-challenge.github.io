@@ -35,8 +35,8 @@ function Header() {
               <a className="text-gray-600 hover:text-gray-800" href="/#rules">
                 Rule
               </a>
-            </li>
-            <li> */}
+            </li> */}
+            <li>
               <a className="text-gray-600 hover:text-gray-800" href="/#news">
                 Updates
               </a>
