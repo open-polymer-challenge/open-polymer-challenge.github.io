@@ -401,7 +401,7 @@ const Challenge = () => {
               className="text-lg w-3/4"
               style={{ fontFamily: "Khula, sans-serif" }}
             >
-              <b>Gang Liu </b> is a PhD student of Computer Science and Engineering at the University of Notre Dame. He received his B.S. degree from Southwest University in 2021. His interests include generative methods for scientific discovery. He has publications in venues such as KDD, NeurIPS, ICML, and ICLR, and has served as a reviewer for NeurIPS/ICML since 2022. His work has been recognized with the 2024–2025 IBM PhD Fellowship.
+              <b>Gang Liu </b> is a PhD student of Computer Science and Engineering at the University of Notre Dame. His interests include generative methods for scientific discovery. He has publications in venues such as KDD, NeurIPS, ICML, and ICLR. His work has been recognized with the 2024–2025 IBM PhD Fellowship.
             </p>
           </div>
           <div className="flex mb-4 mt-4">
@@ -433,7 +433,7 @@ const Challenge = () => {
               className="text-lg w-3/4"
               style={{ fontFamily: "Khula, sans-serif" }}
             >
-              <b>Addison Howard </b> leads Program Management for Competitions at Kaggle, the largest community of data scientists in the world with over 23 million users. His role in the challenge includes coordinators, and platform administrators.
+              <b>Addison Howard </b> leads Program Management for Competitions at Kaggle, the largest community of data scientists in the world with over 23 million users. 
             </p>
           </div>
           <div className="flex mb-4 mt-4">
