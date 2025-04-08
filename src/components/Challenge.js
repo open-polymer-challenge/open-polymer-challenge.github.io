@@ -409,7 +409,7 @@ const Challenge = () => {
               className="text-lg w-3/4"
               style={{ fontFamily: "Khula, sans-serif" }}
             >
-              <b>Jiaxin Xu </b> is a PhD student of Mechanical Engineering at the University of Notre Dame. He received his B.S. degree at Huazhong University of Science and Technology in 2020. His research interests lie in polymer informatics combining computational simulation and machine learning for various energy and mass transport applications. He has publications in top journals like Energy Conversion and Management, Materials Today Physics, ES Energy \& Environment, as well as top machine learning conferences like KDD and NeurIPS. He has served as a reviewer for Chemical Physics and Journal of Chemical Information and Modeling since 2023.
+              <b>Jiaxin Xu </b> received a PhD in Mechanical Engineering at the University of Notre Dame. He received his B.S. degree at Huazhong University of Science and Technology in 2020. His research interests lie in polymer informatics combining computational simulation and machine learning for various energy and mass transport applications. He has publications in top journals like Cell Reports Physical Sciences, Energy Conversion and Management, Materials Today Physics, ES Energy \& Environment, as well as top machine learning conferences like KDD and NeurIPS. He has served as a reviewer for Chemical Physics and Journal of Chemical Information and Modeling since 2023.
             </p>
           </div>
           <div className="flex mb-4 mt-4">
