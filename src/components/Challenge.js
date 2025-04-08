@@ -401,16 +401,7 @@ const Challenge = () => {
               className="text-lg w-3/4"
               style={{ fontFamily: "Khula, sans-serif" }}
             >
-              <b>Gang Liu </b> is a third-year PhD student of Computer Science
-              and Engineering at the University of Notre Dame, advised by Prof.
-              Meng Jiang. He received his B.S. degree at Southwest University in
-              2021. His interests include graph machine learning for scientific
-              discovery. His research aims to develop data-centric methods to
-              improve prediction generalization and interpretability and to
-              design diffusion models for controllable molecules and polymer
-              generation. He has publications in top venues such as KDD,
-              NeurIPS, ICML, and TKDD, and has served as a reviewer for
-              NeurIPS/ICML since 2022.
+              <b>Gang Liu </b> is a PhD student of Computer Science and Engineering at the University of Notre Dame. He received his B.S. degree from Southwest University in 2021. His interests include generative methods for scientific discovery. He has publications in venues such as KDD, NeurIPS, ICML, and ICLR, and has served as a reviewer for NeurIPS/ICML since 2022. His work has been recognized with the 2024–2025 IBM PhD Fellowship.
             </p>
           </div>
           <div className="flex mb-4 mt-4">
@@ -418,17 +409,7 @@ const Challenge = () => {
               className="text-lg w-3/4"
               style={{ fontFamily: "Khula, sans-serif" }}
             >
-              <b>Jiaxin Xu </b> is a fourth-year PhD student of Mechanical
-              Engineering at the University of Notre Dame, advised by Prof.
-              Tengfei Luo. He received his B.S. degree at Huazhong University of
-              Science and Technology in 2020. His research interests lie in
-              polymer informatics combining computational simulation and machine
-              learning for various energy and mass transport applications. He
-              has publications in top journals like Energy Conversion and
-              Management, Materials Today Physics, ES Energy \& Environment, as
-              well as top machine learning conferences like KDD and NeurIPS. He
-              has served as a reviewer for Chemical Physics and Journal of
-              Chemical Information and Modeling since 2023.
+              <b>Jiaxin Xu </b> is a student of Mechanical Engineering at the University of Notre Dame. He received his B.S. degree at Huazhong University of Science and Technology in 2020. His research interests lie in polymer informatics combining computational simulation and machine learning for various energy and mass transport applications. He has publications in top journals like Energy Conversion and Management, Materials Today Physics, ES Energy \& Environment, as well as top machine learning conferences like KDD and NeurIPS. He has served as a reviewer for Chemical Physics and Journal of Chemical Information and Modeling since 2023.
             </p>
           </div>
           <div className="flex mb-4 mt-4">
@@ -436,14 +417,23 @@ const Challenge = () => {
               className="text-lg w-3/4"
               style={{ fontFamily: "Khula, sans-serif" }}
             >
-              <b>Eric Inae </b> is a second-year PhD student of Computer Science
-              and Engineering at the University of Notre Dame, advised by Prof.
-              Meng Jiang. He received his B.S. degreeat Andrews University in
-              2022. His research interests lie in graph machine learning with
-              applications in material science. He was awarded the Dean's
-              Fellowship of the University of Notre Dame in 2022. He has
-              publications in top venues such as KDD and NeuIPS and has served
-              as a reviewer for AAAI since 2023.
+              <b>Eric Inae </b> is a PhD student of Computer Science and Engineering at the University of Notre Dame. He received his B.S. degreeat Andrews University in 2022. His research interests lie in graph machine learning with applications in material science. He was awarded the Dean's Fellowship of the University of Notre Dame in 2022. He has publications in top venues such as KDD and NeuIPS and has served as a reviewer for AAAI since 2023.
+            </p>
+          </div>
+          <div className="flex mb-4 mt-4">
+            <p
+              className="text-lg w-3/4"
+              style={{ fontFamily: "Khula, sans-serif" }}
+            >
+              <b>Yihan Zhu </b> is a PhD student of Computer Science and Engineering at the University of Notre Dame. She received her B.S. degree at Southeast University in 2021 and her Master's degree at Columbia University in 2023. Her research interests lie in AI for science, especially graph machine learning on polymer data.
+            </p>
+          </div>
+          <div className="flex mb-4 mt-4">
+            <p
+              className="text-lg w-3/4"
+              style={{ fontFamily: "Khula, sans-serif" }}
+            >
+              <b>Addison Howard </b> leads Program Management for Competitions at Kaggle, the largest community of data scientists in the world with over 23 million users. His role in the challenge includes coordinators, and platform administrators.
             </p>
           </div>
           <div className="flex mb-4 mt-4">
