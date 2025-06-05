@@ -1,0 +1,30 @@
+[
+  {
+    "source": "PoLyInfo",
+    "solubility": null,
+    "diffusivity": null,
+    "permeability": null,
+    "ffv": null,
+    "experimental": false,
+    "computational": true,
+    "hypothetical": true,
+    "withSmiles": false,
+    "polymers": "~29,000",
+    "note": "~1,300 polymers are related to gas separation",
+    "reference": "(81)"
+  },
+  {
+    "source": "MSA",
+    "solubility": null,
+    "diffusivity": null,
+    "permeability": null,
+    "ffv": null,
+    "experimental": false,
+    "computational": true,
+    "hypothetical": true,
+    "withSmiles": false,
+    "polymers": "~1,500",
+    "note": "Many missing values",
+    "reference": "(26)"
+  }
+]
