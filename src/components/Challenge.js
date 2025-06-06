@@ -65,7 +65,7 @@ const Challenge = () => {
               style={{ fontFamily: "Khula, sans-serif" }}
             >
               <span className="inline-block w-48 font-bold">
-                June 5, 2025
+                June 16, 2025
               </span>
               <span>
                 - Start Date of the competition. Please visit the{"  "}
