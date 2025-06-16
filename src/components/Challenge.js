@@ -4,11 +4,11 @@ import img_title from "../imgs/title.svg";
 const Challenge = () => {
   return (
     <main>
-      <section class="h-28 bg-gradient-to-r from-green-100 to-blue-0 w-full mx-auto px-4 sm:px-6 lg:px-8 py-40 mt-16 top-5">
+      <section className="h-28 bg-gradient-to-r from-green-100 to-blue-0 w-full mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-40 mt-8 sm:mt-16 top-5">
         <img
           src={img_title}
           alt="Background"
-          className="w-1/10 h-1/3 object-cover absolute top-40 left-1/2 transform -translate-x-1/2"
+          className="w-3/4 sm:w-2/3 h-auto object-cover absolute top-20 sm:top-40 left-1/2 transform -translate-x-1/2"
         />
       </section>
 
@@ -57,18 +57,18 @@ const Challenge = () => {
       >
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            Important Dates (Tentative)
+            Important Dates
           </h2>
           <div className="mt-4 text-lg text-neutral-800">
             <div
-              className="flex items-center gap-2 mb-2"
+              className="flex flex-col sm:flex-row sm:items-center gap-2 mb-2"
               style={{ fontFamily: "Khula, sans-serif" }}
             >
-              <span className="inline-block w-48 font-bold">
+              <span className="inline-block w-full sm:w-48 font-bold">
                 June 16, 2025
               </span>
               <span>
-                - Start Date of the competition. Please visit the{"  "}
+                - Start Date of the competition. Please visit the{" "}
                 <a
                   className="text-red-500"
                   href="https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025/"
@@ -81,10 +81,10 @@ const Challenge = () => {
             </div>
 
             <div
-              className="flex items-center gap-2 mb-2"
+              className="flex flex-col sm:flex-row sm:items-center gap-2 mb-2"
               style={{ fontFamily: "Khula, sans-serif" }}
             >
-              <span className="inline-block w-48 font-bold">
+              <span className="inline-block w-full sm:w-48 font-bold">
                 September 8, 2025
               </span>
               <span>
@@ -93,10 +93,10 @@ const Challenge = () => {
             </div>
 
             <div
-              className="flex items-center gap-2 mb-2"
+              className="flex flex-col sm:flex-row sm:items-center gap-2 mb-2"
               style={{ fontFamily: "Khula, sans-serif" }}
             >
-              <span className="inline-block w-48 font-bold">
+              <span className="inline-block w-full sm:w-48 font-bold">
                 September 8, 2025
               </span>
               <span>
@@ -105,10 +105,10 @@ const Challenge = () => {
             </div>
 
             <div
-              className="flex items-center gap-2 mb-2"
+              className="flex flex-col sm:flex-row sm:items-center gap-2 mb-2"
               style={{ fontFamily: "Khula, sans-serif" }}
             >
-              <span className="inline-block w-48 font-bold">
+              <span className="inline-block w-full sm:w-48 font-bold">
                 September 15, 2025
               </span>
               <span>
@@ -129,23 +129,23 @@ const Challenge = () => {
           </h2>
           <div className="mt-4 text-lg text-neutral-800">
             <div
-              className="flex items-center gap-2"
+              className="flex flex-col sm:flex-row sm:items-center gap-2"
               style={{ fontFamily: "Khula, sans-serif" }}
             >
-              <span className="inline-block w-52 font-bold">
+              <span className="inline-block w-full sm:w-52 font-bold">
                 June 5, 2025
               </span>
               <span>
-              Website released.
+                Website released.
               </span>
             </div>
           </div>
           <div className="mt-4 text-lg text-neutral-800">
             <div
-              className="flex items-center gap-2"
+              className="flex flex-col sm:flex-row sm:items-center gap-2"
               style={{ fontFamily: "Khula, sans-serif" }}
             >
-              <span className="inline-block w-52 font-bold">
+              <span className="inline-block w-full sm:w-52 font-bold">
                 June 5, 2025
               </span>
               <span>
@@ -163,14 +163,14 @@ const Challenge = () => {
           
           <div className="mt-4 text-lg text-neutral-800">
             <div
-              className="flex items-center gap-2"
+              className="flex flex-col sm:flex-row sm:items-center gap-2"
               style={{ fontFamily: "Khula, sans-serif" }}
             >
-              <span className="inline-block w-52 font-bold">
+              <span className="inline-block w-full sm:w-52 font-bold">
                 June 16, 2025
               </span>
               <span>
-              We launch the competition on{" "}
+                We launch the competition on{" "}
                 <a
                   className="text-red-500"
                   href="https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025/"
@@ -186,10 +186,10 @@ const Challenge = () => {
 
           <div className="mt-4 text-lg text-neutral-800">
             <div
-              className="flex items-center gap-2"
+              className="flex flex-col sm:flex-row sm:items-center gap-2"
               style={{ fontFamily: "Khula, sans-serif" }}
             >
-              <span className="inline-block w-52 font-bold">
+              <span className="inline-block w-full sm:w-52 font-bold">
                 June 16, 2025
               </span>
               <span>
@@ -366,30 +366,30 @@ const Challenge = () => {
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl mb-8">
             Acknowledgements
           </h2>
-          <div className="flex justify-start items-center flex-wrap gap-6">
-            <div className="flex flex-col items-center">
+          <div className="flex justify-center items-center flex-wrap gap-4 sm:gap-6">
+            <div className="flex flex-col items-center w-full sm:w-auto">
               <img
                 src="https://seekvectorlogo.com/wp-content/uploads/2019/08/university-of-notre-dame-vector-logo.png"
                 alt="University of Notre Dame"
-                className="h-64 w-64 object-contain mb-2"
+                className="h-32 w-32 sm:h-48 sm:w-48 lg:h-64 lg:w-64 object-contain mb-2"
               />
-              <span className="text-sm text-gray-600">University of Notre Dame</span>
+              <span className="text-xs sm:text-sm text-gray-600 text-center">University of Notre Dame</span>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center w-full sm:w-auto">
               <img
                 src="https://brand.wisc.edu/content/uploads/2023/09/vert-w-crest-logo-print-color.png"
                 alt="University of Wisconsin-Madison"
-                className="h-64 w-64 object-contain mb-2"
+                className="h-32 w-32 sm:h-48 sm:w-48 lg:h-64 lg:w-64 object-contain mb-2"
               />
-              <span className="text-sm text-gray-600">University of Wisconsin-Madison</span>
+              <span className="text-xs sm:text-sm text-gray-600 text-center">University of Wisconsin-Madison</span>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center w-full sm:w-auto">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Kaggle_Logo.svg/1024px-Kaggle_Logo.svg.png?20240209024103"
                 alt="Kaggle"
-                className="h-64 w-64 object-contain mb-2"
+                className="h-32 w-32 sm:h-48 sm:w-48 lg:h-64 lg:w-64 object-contain mb-2"
               />
-              <span className="text-sm text-gray-600">Kaggle</span>
+              <span className="text-xs sm:text-sm text-gray-600 text-center">Kaggle</span>
             </div>
           </div>
         </div>
