@@ -41,11 +41,11 @@ const Challenge = () => {
           >
             The competition is hosted on <a
               className="text-red-500"
-              href="https://www.kaggle.com/competitions/open-polymer-challenge/"
+              href="https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Kaggle (Release Soon)
+              Kaggle
             </a> with a total prize pool of <b>$50,000</b>. 
           </p>
         </div>
@@ -71,11 +71,11 @@ const Challenge = () => {
                 - Start Date of the competition. Please visit the{"  "}
                 <a
                   className="text-red-500"
-                  href="https://www.kaggle.com/competitions/open-polymer-challenge/"
+                  href="https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Kaggle page (Release Soon)
+                  Kaggle page
                 </a>
               </span>
             </div>
@@ -160,6 +160,54 @@ const Challenge = () => {
               </span>
             </div>
           </div>
+          
+          <div className="mt-4 text-lg text-neutral-800">
+            <div
+              className="flex items-center gap-2"
+              style={{ fontFamily: "Khula, sans-serif" }}
+            >
+              <span className="inline-block w-52 font-bold">
+                June 16, 2025
+              </span>
+              <span>
+              We launch the competition on{" "}
+                <a
+                  className="text-red-500"
+                  href="https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Kaggle
+                </a>
+                {" "} with a total prize pool of $50,000!
+              </span>
+            </div>
+          </div>
+
+          <div className="mt-4 text-lg text-neutral-800">
+            <div
+              className="flex items-center gap-2"
+              style={{ fontFamily: "Khula, sans-serif" }}
+            >
+              <span className="inline-block w-52 font-bold">
+                June 16, 2025
+              </span>
+              <span>
+                  We launch a{" "}   
+                  <a
+                    className="text-red-500"
+                    href="https://www.kaggle.com/code/alexliu99/tutorial"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    tutorial
+                  </a>
+                  {" "} for the competition.
+              </span>
+            </div>
+          </div>
+
+
         </div>
       </section>
 
