@@ -79,7 +79,7 @@ const Challenge = () => {
                 >
                   NeurIPS soon (Saturday, December 6, 2 p.m. PST — 4:45 p.m. PST)
                 </a>
-                . If you joined the competition or are interested in the workshop, please{" "}
+                . <b>If you joined the competition or are interested in the ML for polymers, please{" "}
                 <a
                   className="text-red-500"
                   href="https://forms.gle/VLAqjDuhMK4C325x5"
@@ -88,7 +88,7 @@ const Challenge = () => {
                 >
                   click here to fill out the 1-minute survey
                 </a>
-                . Your feedback on the competition is much appreciated!
+                . Your feedback on the competition is much appreciated!</b>
               </span>
             </div>
           </div>
