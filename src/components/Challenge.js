@@ -4,7 +4,7 @@ import img_title from "../imgs/title.svg";
 const Challenge = () => {
   return (
     <main>
-      <section className="relative bg-green-100 w-full px-4 sm:px-6 lg:px-8 py-16 sm:py-10 mt-16 sm:mt-20">
+      <section className="relative bg-gradient-to-l from-white to-green-100 w-full px-4 sm:px-6 lg:px-8 py-16 sm:py-10 mt-16 sm:mt-20">
         <div className="max-w-7xl mx-auto">
           <img
             src={img_title}
