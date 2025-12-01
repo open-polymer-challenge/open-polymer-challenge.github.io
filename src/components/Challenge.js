@@ -4,12 +4,14 @@ import img_title from "../imgs/title.svg";
 const Challenge = () => {
   return (
     <main>
-      <section className="h-28 bg-gradient-to-r from-green-100 to-blue-0 w-full mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-40 mt-8 sm:mt-16 top-5">
-        <img
-          src={img_title}
-          alt="Background"
-          className="w-3/4 sm:w-2/3 h-auto object-cover absolute top-20 sm:top-40 left-1/2 transform -translate-x-1/2"
-        />
+      <section className="relative bg-green-100 w-full px-4 sm:px-6 lg:px-8 py-16 sm:py-10 mt-16 sm:mt-20">
+        <div className="max-w-7xl mx-auto">
+          <img
+            src={img_title}
+            alt="Background"
+            className="w-3/4 sm:w-2/3 max-w-4xl h-auto mx-auto"
+          />
+        </div>
       </section>
 
       <section class="py-12 max-w-7xl mx-auto px-4 sm:px-6 lg:py-16 lg:px-8">
@@ -48,6 +50,144 @@ const Challenge = () => {
               Kaggle
             </a> with a total prize pool of <b>$50,000</b>. 
           </p>
+        </div>
+      </section>
+
+      <section
+        class="py-12 max-w-7xl mx-auto px-4 sm:px-6 lg:py-16 lg:px-8"
+        id="news"
+      >
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+            News
+          </h2>
+          <div className="mt-4 text-lg text-neutral-800">
+            <div
+              className="flex flex-col sm:flex-row sm:items-start gap-2"
+              style={{ fontFamily: "Khula, sans-serif" }}
+            >
+              <span className="inline-block w-full sm:w-52 sm:min-w-52 sm:flex-shrink-0 font-bold">
+                December 1, 2025
+              </span>
+              <span>
+                Our workshop will be hosted at{" "}
+                <a
+                  className="text-red-500"
+                  href="https://neurips.cc/virtual/2025/loc/san-diego/competition/127721"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  NeurIPS soon (Saturday, December 6, 2 p.m. PST — 4:45 p.m. PST)
+                </a>
+                . If you joined the competition or are interested in the workshop, please{" "}
+                <a
+                  className="text-red-500"
+                  href="https://forms.gle/VLAqjDuhMK4C325x5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  click here to fill out the 1-minute survey
+                </a>
+                . Your feedback on the competition is much appreciated!
+              </span>
+            </div>
+          </div>
+
+          <div className="mt-4 text-lg text-neutral-800">
+            <div
+              className="flex flex-col sm:flex-row sm:items-start gap-2"
+              style={{ fontFamily: "Khula, sans-serif" }}
+            >
+              <span className="inline-block w-full sm:w-52 sm:min-w-52 sm:flex-shrink-0 font-bold">
+                September 15, 2025
+              </span>
+              <span>
+                Competition ended.
+              </span>
+            </div>
+          </div>
+
+          <div className="mt-4 text-lg text-neutral-800">
+            <div
+              className="flex flex-col sm:flex-row sm:items-start gap-2"
+              style={{ fontFamily: "Khula, sans-serif" }}
+            >
+              <span className="inline-block w-full sm:w-52 sm:min-w-52 sm:flex-shrink-0 font-bold">
+                June 16, 2025
+              </span>
+              <span>
+                We launch a{" "}
+                <a
+                  className="text-red-500"
+                  href="https://www.kaggle.com/code/alexliu99/tutorial"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  tutorial
+                </a>
+                {" "}for the competition.
+              </span>
+            </div>
+          </div>
+
+          <div className="mt-4 text-lg text-neutral-800">
+            <div
+              className="flex flex-col sm:flex-row sm:items-start gap-2"
+              style={{ fontFamily: "Khula, sans-serif" }}
+            >
+              <span className="inline-block w-full sm:w-52 sm:min-w-52 sm:flex-shrink-0 font-bold">
+                June 16, 2025
+              </span>
+              <span>
+                We launch the competition on{" "}
+                <a
+                  className="text-red-500"
+                  href="https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Kaggle
+                </a>
+                {" "}with a total prize pool of $50,000!
+              </span>
+            </div>
+          </div>
+          
+          <div className="mt-4 text-lg text-neutral-800">
+            <div
+              className="flex flex-col sm:flex-row sm:items-start gap-2"
+              style={{ fontFamily: "Khula, sans-serif" }}
+            >
+              <span className="inline-block w-full sm:w-52 sm:min-w-52 sm:flex-shrink-0 font-bold">
+                June 5, 2025
+              </span>
+              <span>
+                <a
+                  className="text-red-500"
+                  href="https://github.com/liugangcode/torch-molecule"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  torch-molecule
+                </a> released! <code className="bg-gray-100 px-2 py-1 rounded text-sm font-mono">pip install torch-molecule</code> to start developing your own models.
+              </span>
+            </div>
+          </div>
+
+          <div className="mt-4 text-lg text-neutral-800">
+            <div
+              className="flex flex-col sm:flex-row sm:items-start gap-2"
+              style={{ fontFamily: "Khula, sans-serif" }}
+            >
+              <span className="inline-block w-full sm:w-52 sm:min-w-52 sm:flex-shrink-0 font-bold">
+                June 5, 2025
+              </span>
+              <span>
+                Website released.
+              </span>
+            </div>
+          </div>
+
         </div>
       </section>
 
@@ -120,98 +260,6 @@ const Challenge = () => {
       </section>
 
       <section
-        class="py-12 max-w-7xl mx-auto px-4 sm:px-6 lg:py-16 lg:px-8"
-        id="news"
-      >
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            News
-          </h2>
-          <div className="mt-4 text-lg text-neutral-800">
-            <div
-              className="flex flex-col sm:flex-row sm:items-center gap-2"
-              style={{ fontFamily: "Khula, sans-serif" }}
-            >
-              <span className="inline-block w-full sm:w-52 font-bold">
-                June 5, 2025
-              </span>
-              <span>
-                Website released.
-              </span>
-            </div>
-          </div>
-          <div className="mt-4 text-lg text-neutral-800">
-            <div
-              className="flex flex-col sm:flex-row sm:items-center gap-2"
-              style={{ fontFamily: "Khula, sans-serif" }}
-            >
-              <span className="inline-block w-full sm:w-52 font-bold">
-                June 5, 2025
-              </span>
-              <span>
-                <a
-                  className="text-red-500"
-                  href="https://github.com/liugangcode/torch-molecule"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  torch-molecule
-                </a> released! <code className="bg-gray-100 px-2 py-1 rounded text-sm font-mono">pip install torch-molecule</code> to start developing your own models.
-              </span>
-            </div>
-          </div>
-          
-          <div className="mt-4 text-lg text-neutral-800">
-            <div
-              className="flex flex-col sm:flex-row sm:items-center gap-2"
-              style={{ fontFamily: "Khula, sans-serif" }}
-            >
-              <span className="inline-block w-full sm:w-52 font-bold">
-                June 16, 2025
-              </span>
-              <span>
-                We launch the competition on{" "}
-                <a
-                  className="text-red-500"
-                  href="https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Kaggle
-                </a>
-                {" "} with a total prize pool of $50,000!
-              </span>
-            </div>
-          </div>
-
-          <div className="mt-4 text-lg text-neutral-800">
-            <div
-              className="flex flex-col sm:flex-row sm:items-center gap-2"
-              style={{ fontFamily: "Khula, sans-serif" }}
-            >
-              <span className="inline-block w-full sm:w-52 font-bold">
-                June 16, 2025
-              </span>
-              <span>
-                  We launch a{" "}   
-                  <a
-                    className="text-red-500"
-                    href="https://www.kaggle.com/code/alexliu99/tutorial"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    tutorial
-                  </a>
-                  {" "} for the competition.
-              </span>
-            </div>
-          </div>
-
-
-        </div>
-      </section>
-
-      <section
         className="mt-12 py-12 max-w-7xl mx-auto px-4 sm:px-6 lg:py-16 lg:px-8"
         id="team"
       >
@@ -242,15 +290,18 @@ const Challenge = () => {
               style={{ fontFamily: "Khula, sans-serif" }}
             >
               <b>
-                <a
-                  className="text-red-500"
-                  href="https://scholar.google.com/citations?user=d5HFw3YAAAAJ&hl=en"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Jiaxin Xu
-                </a>, 
-              </b> PhD at the University of Notre Dame
+                Sobin Alosious, 
+              </b> Postdoc at the University of Notre Dame
+            </p>
+          </div>
+          <div className="flex mb-4 mt-4">
+            <p
+              className="text-lg w-3/4"
+              style={{ fontFamily: "Khula, sans-serif" }}
+            >
+              <b>
+                Yuhan Liu, 
+              </b> PhD student at the University of Notre Dame
             </p>
           </div>
           <div className="flex mb-4 mt-4">
@@ -285,6 +336,33 @@ const Challenge = () => {
                   Yihan Zhu
                 </a>, 
               </b> PhD student at the University of Notre Dame
+            </p>
+          </div>
+          <div className="flex mb-4 mt-4">
+            <p
+              className="text-lg w-3/4"
+              style={{ fontFamily: "Khula, sans-serif" }}
+            >
+              <b>
+                Renzheng Zhang, 
+              </b> PhD student at the University of Notre Dame
+            </p>
+          </div>
+          <div className="flex mb-4 mt-4">
+            <p
+              className="text-lg w-3/4"
+              style={{ fontFamily: "Khula, sans-serif" }}
+            >
+              <b>
+                <a
+                  className="text-red-500"
+                  href="https://scholar.google.com/citations?user=d5HFw3YAAAAJ&hl=en"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Jiaxin Xu
+                </a>, 
+              </b> PhD at the University of Notre Dame
             </p>
           </div>
           <div className="flex mb-4 mt-4">
@@ -360,11 +438,11 @@ const Challenge = () => {
 
       <section
         className="mt-12 py-12 max-w-7xl mx-auto px-4 sm:px-6 lg:py-16 lg:px-8"
-        id="acknowledgements"
+        id="acknowledgement"
       >
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl mb-8">
-            Acknowledgements
+            Acknowledgement
           </h2>
           <div className="flex justify-center items-center flex-wrap gap-4 sm:gap-6">
             <div className="flex flex-col items-center w-full sm:w-auto">

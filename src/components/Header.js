@@ -24,13 +24,13 @@ function Header() {
               </a>
             </li> */}
             <li>
-              <a className="text-gray-600 hover:text-gray-800" href="/#dates">
-                Important Dates
+              <a className="text-gray-600 hover:text-gray-800" href="/#news">
+                News
               </a>
             </li>
             <li>
-              <a className="text-gray-600 hover:text-gray-800" href="/#news">
-                News
+              <a className="text-gray-600 hover:text-gray-800" href="/#dates">
+                Important Dates
               </a>
             </li>
             <li>
