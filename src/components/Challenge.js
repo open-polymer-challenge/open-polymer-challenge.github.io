@@ -1,6 +1,5 @@
 import React from "react";
 import img_title from "../imgs/title.svg";
-import opc_report from "../report/opc.pdf";
 
 const Challenge = () => {
   return (
@@ -74,7 +73,7 @@ const Challenge = () => {
                 <b>Open Polymer Challenge: Post-Competition Report</b> is now available{" "}
                 <a
                   className="text-red-500"
-                  href={opc_report}
+                  href="/opc.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
