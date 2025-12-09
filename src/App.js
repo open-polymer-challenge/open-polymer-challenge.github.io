@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import MainContent from './components/Main';
-import Leaderboard from './components/Challenge_LB';
+// import MainContent from './components/Main';
+// import Leaderboard from './components/Challenge_LB';
 import Challenge from './components/Challenge';
-import Update from './components/Update';
-import Dataset from './components/Dataset';
-import Predict from './components/Predict';
+// import Update from './components/Update';
+// import Dataset from './components/Dataset';
+// import Predict from './components/Predict';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
