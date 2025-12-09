@@ -1,5 +1,6 @@
 import React from "react";
 import img_title from "../imgs/title.svg";
+import opc_report from "../report/opc.pdf";
 
 const Challenge = () => {
   return (
@@ -67,17 +68,86 @@ const Challenge = () => {
               style={{ fontFamily: "Khula, sans-serif" }}
             >
               <span className="inline-block w-full sm:w-52 sm:min-w-52 sm:flex-shrink-0 font-bold">
-                December 1, 2025
+                December 9, 2025
               </span>
               <span>
-                Our workshop will be hosted at{" "}
+                <b>Open Polymer Challenge: Post-Competition Report</b> is now available{" "}
+                <a
+                  className="text-red-500"
+                  href={opc_report}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  here
+                </a>
+                .
+              </span>
+            </div>
+          </div>
+
+          <div className="mt-4 text-lg text-neutral-800">
+            <div
+              className="flex flex-col sm:flex-row sm:items-start gap-2"
+              style={{ fontFamily: "Khula, sans-serif" }}
+            >
+              <span className="inline-block w-full sm:w-52 sm:min-w-52 sm:flex-shrink-0 font-bold">
+                December 9, 2025
+              </span>
+              <span>
+                Test dataset is now released on{" "}
+                <a
+                  className="text-red-500"
+                  href="https://www.kaggle.com/datasets/alexliu99/neurips-open-polymer-prediction-2025-test-data"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Kaggle
+                </a>
+                .
+              </span>
+            </div>
+          </div>
+
+          <div className="mt-4 text-lg text-neutral-800">
+            <div
+              className="flex flex-col sm:flex-row sm:items-start gap-2"
+              style={{ fontFamily: "Khula, sans-serif" }}
+            >
+              <span className="inline-block w-full sm:w-52 sm:min-w-52 sm:flex-shrink-0 font-bold">
+                December 9, 2025
+              </span>
+              <span>
+                Data generation pipeline{" "}
+                <a
+                  className="text-red-500"
+                  href="https://github.com/sobinalosious/ADEPT"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ADEPT
+                </a>
+                {" "}is released on GitHub, which generalizes from 3 properties (TC, density, Rg) to more than 25 properties.
+              </span>
+            </div>
+          </div>
+
+          <div className="mt-4 text-lg text-neutral-800">
+            <div
+              className="flex flex-col sm:flex-row sm:items-start gap-2"
+              style={{ fontFamily: "Khula, sans-serif" }}
+            >
+              <span className="inline-block w-full sm:w-52 sm:min-w-52 sm:flex-shrink-0 font-bold">
+                December 6, 2025
+              </span>
+              <span>
+                Our workshop is hosted at{" "}
                 <a
                   className="text-red-500"
                   href="https://neurips.cc/virtual/2025/loc/san-diego/competition/127721"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  NeurIPS soon (Saturday, December 6, 2 p.m. PST — 4:45 p.m. PST)
+                  NeurIPS (Saturday, December 6, 2 p.m. PST — 4:45 p.m. PST)
                 </a>
                 . <b>If you joined the competition or are interested in the ML for polymers, please{" "}
                 <a
